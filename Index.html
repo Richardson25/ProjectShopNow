@@ -1,13 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShopNow</title>
-</head>
-<body>
-    Egalite
-    Richardson
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./SRC/styles/reset.css" />
+    <link rel="stylesheet" href="./SRC/styles/globalstyles.css" />
+    <link rel="stylesheet" href="./SRC/styles/Index.css">
+    <title>Shop Now</title>
+  </head>
+
+  <body>
+    <header class="hearder_container">
+      <h1 class="hearder_title">Shop Now</h1>
+    </header>
+
+    <section class="filter_container">
+      <div class="filter_buttons">
+        <button>Tous les produits</button>
+        <button>Fruits</button>
+        <button>Legumes</button>
+        <button>Food</button>
+      </div>
+
+      <div class="search_container">
+        <input type="text" placeholder="Rechercher par..." />
+        <img
+          class="search_button"
+          src="./SRC/assets/img/search.svg"
+          alt="loop"
+        />
+      </div>
+    </section>
+
+    <main class="main_container">
+      <ul class="list_container">
+        <li class="list_item">
+          <figure>
+            <img src="./SRC/assets/img/Raisins.webp" alt="Banane" />
+          </figure>
+          <figcaption class="main_figcaption">HortiFruti</figcaption>
+
+          <ol class="main_ol">
+            <li>Vitamine1</li>
+            <li>Vitamine2</li>
+            <li>Vitamine3</li>
+            <li>Vitamine4</li>
+          </ol>
+
+          <button>Acheter</button>
+        </li>
+
+        <li class="list_item">
+          <figure>
+            <img src="./SRC/assets/img/Pommes.jpg" alt="Banane" />
+          </figure>
+          <figcaption class="main_figcaption">HortiFruti</figcaption>
+
+          <ol class="main_ol">
+            <li>Vitamine1</li>
+            <li>Vitamine2</li>
+            <li>Vitamine3</li>
+            <li>Vitamine4</li>
+          </ol>
+
+          <button>Acheter</button>
+        </li>
+
+        <li class="list_item">
+          <figure>
+            <img src="./SRC/assets/img/header.jpg" alt="Banane" />
+          </figure>
+          <figcaption class="main_figcaption">HortiFruti</figcaption>
+
+          <ol class="main_ol">
+            <li>Vitamine1</li>
+            <li>Vitamine2</li>
+            <li>Vitamine3</li>
+            <li>Vitamine4</li>
+          </ol>
+
+          <button>Acheter</button>
+        </li>
+
+        <li class="list_item">
+          <figure>
+            <img src="./SRC/assets/img/Bananess.jpg" alt="Banane" />
+          </figure>
+          <figcaption class="main_figcaption">HortiFruti</figcaption>
+
+          <ol class="main_ol">
+            <li>Vitamine1</li>
+            <li>Vitamine2</li>
+            <li>Vitamine3</li>
+            <li>Vitamine4</li>
+          </ol>
+
+          <button>Acheter</button>
+        </li>
+
+        <li class="list_item">
+          <figure>
+            <img src="./SRC/assets/img/Melange.jpg" alt="Banane" />
+          </figure>
+          <figcaption class="main_figcaption">HortiFruti</figcaption>
+
+          <ol class="main_ol">
+            <li>Vitamine1</li>
+            <li>Vitamine2</li>
+            <li>Vitamine3</li>
+            <li>Vitamine4</li>
+          </ol>
+
+          <button>Acheter</button>
+        </li>
+      </ul>
+
+      <aside class="cart_container">
+        <figure class="cart_header">
+          <img src="./SRC/assets/img/carrinho.svg" alt="photo panier" />
+          <figcaption>Panier d'achat</figcaption>
+        </figure>
+
+        <section class="cart_produits">
+          <figure class="cart_empty">
+            <img src="./SRC/assets/img/shopping-bag.svg" alt="sachet d'achat" />
+            <figcaption>Pour le moment il n'y a pas de produits</figcaption>
+          </figure>
+        </section>
+      </aside>
+    </main>
+  </body>
 </html>
